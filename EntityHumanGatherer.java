@@ -36,16 +36,16 @@ public class EntityHumanGatherer extends EntityCreature
     public ItemStack getHeldItem()
     {
     	
-    	//ItemStack defaultHeldItem = null;
+    	ItemStack defaultHeldItem = null;
     	ItemStack stick = new ItemStack(Item.stick, 1);
     	
-    	//if (mod_EmpireCraft.playerStage == 1)
-    	//{
+    	if (mod_EmpireCraft.playerStage == 1)
+    	{
     		return stick;
-    	//}else
-    	//{
-    		//return defaultHeldItem;
-    	//}
+    	}else
+    	{
+    		return defaultHeldItem;
+    	}
         
     }
     
